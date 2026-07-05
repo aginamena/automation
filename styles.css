@@ -114,26 +114,15 @@ h2 { font-size: clamp(1.45rem, 2.3vw, 2rem); margin-bottom: 0.8rem; letter-spaci
   gap: 1.25rem;
   align-items: stretch;
 }
-.video-placeholder {
-  min-height: 360px;
-  border-radius: 1.5rem;
-  background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 60%, #38bdf8 100%);
-  color: white;
-  display: grid;
-  place-items: center;
-  text-align: center;
-  padding: 2rem;
-  box-shadow: var(--shadow);
+.image-block {
+  width: 100%;
 }
-.play-icon {
-  display: inline-grid;
-  place-items: center;
-  width: 58px;
-  height: 58px;
-  border-radius: 50%;
-  background: rgba(255,255,255,0.18);
-  font-size: 1.4rem;
-  margin-bottom: 0.7rem;
+.profile-image {
+  width: 100%;
+  display: block;
+  border-radius: 1.5rem;
+  object-fit: cover;
+  max-height: 540px;
 }
 .form-card {
   padding: 1.35rem;
